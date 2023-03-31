@@ -25,7 +25,7 @@ spec:
       - name: eks-example
         image: /* Your image URI */
         imagePullPolicy: IfNotPresent
-				resources:
+		resources:
           requests: 
             memory: "64Mi"
             cpu: "200m"
